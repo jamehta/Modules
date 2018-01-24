@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0387BA2019503600418E89 /* UseCardIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0387B92019503500418E89 /* UseCardIO.swift */; };
 		6D56888F2019130F00FFAF5A /* TestProjFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D56888D2019130F00FFAF5A /* TestProjFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D56889A2019132A00FFAF5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5688992019132A00FFAF5A /* AppDelegate.swift */; };
 		6D56889C2019132A00FFAF5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D56889B2019132A00FFAF5A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D0387B92019503500418E89 /* UseCardIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCardIO.swift; sourceTree = "<group>"; };
 		6D56888B2019130F00FFAF5A /* TestProjFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestProjFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D56888D2019130F00FFAF5A /* TestProjFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProjFramework.h; sourceTree = "<group>"; };
 		6D56888E2019130F00FFAF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0387B82019501000418E89 /* TestProjFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6D0387B92019503500418E89 /* UseCardIO.swift */,
+			);
+			path = TestProjFramework;
+			sourceTree = "<group>";
+		};
 		6D56887120190B2C00FFAF5A = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		6D56888C2019130F00FFAF5A /* TestProjFramework */ = {
 			isa = PBXGroup;
 			children = (
+				6D0387B82019501000418E89 /* TestProjFramework */,
 				6D56888D2019130F00FFAF5A /* TestProjFramework.h */,
 				6D56888E2019130F00FFAF5A /* Info.plist */,
 			);
@@ -200,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0387BA2019503600418E89 /* UseCardIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +369,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestProjFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -379,6 +392,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestProjFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
