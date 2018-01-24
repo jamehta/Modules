@@ -16,7 +16,7 @@ s.dependency 'CardIO', '5.5.5'
 
 # ――― Contents ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-s.source_files = 'TestProj/TestProjFramework/TestProjFramework/**/*.swift', 'TestProj/TestProjFramework/TestProjFramework.h'
+s.source_files = 'TestProjFramework/TestProjFramework/**/*.swift', 'TestProjFramework/TestProjFramework.h'
 
 s.resource = 'TestProj/TestProjFramework/**/*.{storyboard,xib,json,otf,ttf,strings,xcassets}'
 
