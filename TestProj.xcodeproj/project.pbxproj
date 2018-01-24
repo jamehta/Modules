@@ -13,7 +13,7 @@
 		6D56889F2019132A00FFAF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D56889D2019132A00FFAF5A /* Main.storyboard */; };
 		6D5688A12019132A00FFAF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5688A02019132A00FFAF5A /* Assets.xcassets */; };
 		6D5688A42019132A00FFAF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5688A22019132A00FFAF5A /* LaunchScreen.storyboard */; };
-		6D5688AA2019178200FFAF5A /* UseCardIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5688A92019178200FFAF5A /* UseCardIO.swift */; };
+		6D5688AC201927F600FFAF5A /* TestProjFramework in Resources */ = {isa = PBXBuildFile; fileRef = 6D5688AB201927F600FFAF5A /* TestProjFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		6D5688A02019132A00FFAF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D5688A32019132A00FFAF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D5688A52019132A00FFAF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D5688A92019178200FFAF5A /* UseCardIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCardIO.swift; sourceTree = "<group>"; };
+		6D5688AB201927F600FFAF5A /* TestProjFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestProjFramework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 		6D56888C2019130F00FFAF5A /* TestProjFramework */ = {
 			isa = PBXGroup;
 			children = (
+				6D5688AB201927F600FFAF5A /* TestProjFramework */,
 				6D56888D2019130F00FFAF5A /* TestProjFramework.h */,
 				6D56888E2019130F00FFAF5A /* Info.plist */,
-				6D5688A92019178200FFAF5A /* UseCardIO.swift */,
 			);
 			path = TestProjFramework;
 			sourceTree = "<group>";
@@ -183,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5688AC201927F600FFAF5A /* TestProjFramework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D5688AA2019178200FFAF5A /* UseCardIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

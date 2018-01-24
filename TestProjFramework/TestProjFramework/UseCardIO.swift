@@ -6,14 +6,6 @@
 //  Copyright © 2018 PayPal, Inc. All rights reserved.
 //
 
-//
-//  SettingsCardIOCaptureViewController.swift
-//  consumervenice
-//
-//  Created by Li,Claire on 6/1/15.
-//  Copyright (c) 2015 PayPal. All rights reserved.
-//
-
 import UIKit
 
 class SettingsCardIOCaptureViewController: UIViewController, CardIOViewDelegate, UIImagePickerControllerDelegate {
