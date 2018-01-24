@@ -1,0 +1,20 @@
+PODS:
+  - CardIO (5.5.5)
+  - TestProj (0.0.1.local):
+    - CardIO (= 5.5.5)
+
+DEPENDENCIES:
+  - CardIO (= 5.5.5)
+  - TestProj (from `.`)
+
+EXTERNAL SOURCES:
+  TestProj:
+    :path: .
+
+SPEC CHECKSUMS:
+  CardIO: 961b8411391c1d8da522875d5870e83135f310c7
+  TestProj: 828ef16571b211c4ee4212d4ee5aa228c0c4d7ba
+
+PODFILE CHECKSUM: 0cb61f728724a7bb01417f65e0f9b1116488f368
+
+COCOAPODS: 1.0.1
